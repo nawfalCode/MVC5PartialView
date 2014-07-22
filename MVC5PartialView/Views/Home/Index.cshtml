@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<h2>Retrive Data with Partial View</h2>
+
+<table>
+    <tr>
+        <td width="500px">
+            @{Html.RenderAction("PartialView", "Home");}
+        </td>
+    </tr>
+</table>
